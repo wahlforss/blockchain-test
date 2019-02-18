@@ -1,13 +1,13 @@
 {
-  "main.css": "/blockchain/static/css/main.e9a2e7a9.chunk.css",
-  "main.js": "/blockchain/static/js/main.11fc0502.chunk.js",
-  "main.js.map": "/blockchain/static/js/main.11fc0502.chunk.js.map",
-  "runtime~main.js": "/blockchain/static/js/runtime~main.37818096.js",
-  "runtime~main.js.map": "/blockchain/static/js/runtime~main.37818096.js.map",
-  "static/js/2.24d74a27.chunk.js": "/blockchain/static/js/2.24d74a27.chunk.js",
-  "static/js/2.24d74a27.chunk.js.map": "/blockchain/static/js/2.24d74a27.chunk.js.map",
-  "index.html": "/blockchain/index.html",
-  "precache-manifest.e15eaebe392ede9d3c1427fb25671aec.js": "/blockchain/precache-manifest.e15eaebe392ede9d3c1427fb25671aec.js",
-  "service-worker.js": "/blockchain/service-worker.js",
-  "static/css/main.e9a2e7a9.chunk.css.map": "/blockchain/static/css/main.e9a2e7a9.chunk.css.map"
+  "main.css": "/blockchain-test/static/css/main.e9a2e7a9.chunk.css",
+  "main.js": "/blockchain-test/static/js/main.7c9b46f3.chunk.js",
+  "main.js.map": "/blockchain-test/static/js/main.7c9b46f3.chunk.js.map",
+  "runtime~main.js": "/blockchain-test/static/js/runtime~main.eb3b4ed9.js",
+  "runtime~main.js.map": "/blockchain-test/static/js/runtime~main.eb3b4ed9.js.map",
+  "static/js/2.24d74a27.chunk.js": "/blockchain-test/static/js/2.24d74a27.chunk.js",
+  "static/js/2.24d74a27.chunk.js.map": "/blockchain-test/static/js/2.24d74a27.chunk.js.map",
+  "index.html": "/blockchain-test/index.html",
+  "precache-manifest.2161cd048cc8e9b54138e02791676436.js": "/blockchain-test/precache-manifest.2161cd048cc8e9b54138e02791676436.js",
+  "service-worker.js": "/blockchain-test/service-worker.js",
+  "static/css/main.e9a2e7a9.chunk.css.map": "/blockchain-test/static/css/main.e9a2e7a9.chunk.css.map"
 }
