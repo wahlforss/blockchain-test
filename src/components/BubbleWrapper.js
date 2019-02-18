@@ -12,13 +12,11 @@ class BubbleWrapper  extends Component {
 
     componentDidMount() {        
         const socket = new WebSocket('wss://ws.blockchain.info/inv');
-        socket.addEventListener('open', (event) => {
-            console.log('connected');
-            console.log(event);
-            socket.send('{ "op": "unconfirmed_sub" }');              
-              
+        socket.onopen = (event) => {
+            socket.send('{ "op": "unconfirmed_sub" }');
+            console.log('open');            
             socket.addEventListener('message', this.onNewTransaction)
-        });
+        }        
     }
 
     // Scale of bubbles is relative to the size of transcation
