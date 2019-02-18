@@ -2,7 +2,7 @@
   "name": "blockchain-job",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://wahlforss.github.io/blockchain",
+  "homepage": "http://wahlforss.github.io/blockchain-test",
   "dependencies": {
     "gh-pages": "^2.0.1",
     "lodash": "^4.17.11",

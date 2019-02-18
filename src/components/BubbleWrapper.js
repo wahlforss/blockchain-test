@@ -13,7 +13,10 @@ class BubbleWrapper  extends Component {
     componentDidMount() {        
         const socket = new WebSocket('wss://ws.blockchain.info/inv');
         socket.addEventListener('open', (event) => {
-            socket.send('{ "op": "unconfirmed_sub" }');                
+            console.log('connected');
+            console.log(event);
+            socket.send('{ "op": "unconfirmed_sub" }');              
+              
             socket.addEventListener('message', this.onNewTransaction)
         });
     }
